@@ -6,8 +6,6 @@ git 기본 명령어 정리
 - 분산 버전 관리 시스템
 - 기능 단위 기능 변화량의 병렬적 버전 관리를 위해
 
----
-
 ```bash
 터미널 명령어
 ```
@@ -38,7 +36,6 @@ git add .
 ## commit
 staging area => .git directory
 
-
 ```bash
 git commit
 ```
@@ -52,14 +49,20 @@ git commit -m "메시지 내용"
 ```
 - 메시지 단계를 축약 할 수 있음
 
-
 ## remote add
-원격 저장소 주소 저장
-```bash
-git remote add origin(이름) https://github.com/v2k2000/TIL.git(주소)
-```
+
+- 원격저장소의 주소를 저장하는 명령어
 
 ```bash
-git push origin(remote_name) master(or main)(brench_name)
+git remote add origin https://github.com/v2k2000/TIL.git
+git remote add {remote_name} {remote_url}
 ```
 
+## push
+
+- 원격저장소로 브랜치를 업로드 하는 명령어
+
+```bash
+git push origin master
+git push {remote_name} {branch_name}
+```
