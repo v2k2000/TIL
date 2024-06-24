@@ -7,7 +7,7 @@
 - `ls`
     - 현재 폴더에 있는 파일/폴더 목록 표시
     - `-a` (all) (option) : 숨겨진 목록까지 표시
-- `mkdir {directory_name}`
+- `mkdir {directory_name}`s
     -폴더 생성
 - `touch {file_name}`
     - 파일 생성

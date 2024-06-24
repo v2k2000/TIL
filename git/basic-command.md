@@ -53,3 +53,13 @@ git commit -m "메시지 내용"
 - 메시지 단계를 축약 할 수 있음
 
 
+## remote add
+원격 저장소 주소 저장
+```bash
+git remote add origin(이름) https://github.com/v2k2000/TIL.git(주소)
+```
+
+```bash
+git push origin(remote_name) master(or main)(brench_name)
+```
+
